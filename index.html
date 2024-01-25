@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smk Ak Nusa Bangsa</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
+
 <body>
     <header>
         <img class="logo" src="assets/img/logo.svg" alt="logo">
         <nav>
             <ul class="nav-links">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Jurusan</a></li>
+                <li><a href="#jurusan">Jurusan</a></li>
                 <li><a href="#">Berita</a></li>
                 <li><a href="#">PPDB 2022 - 2023</a></li>
                 <li><a href="#">Contact</a></li>
@@ -21,19 +24,111 @@
     </header>
 
     <main>
-        <section class="hero">
-            <div class="hero-section">
-                <h1>SMK AK NUSA BANGSA</h1>
+        <section class="hero-section">
+            <div class="hero">
+                <h1>PENUH INSPIRASI</h1>
                 <video class="video-bg" autoplay muted loop>
                     <source src="assets/video/background.mp4" type="video/mp4">
                 </video>
-                
+
             </div>
         </section>
-        <img class="wave" src="assets/img/wave.svg" alt="wave">
+        <div class="wave">
+            <img src="assets/img/wave.svg" alt="wave">
+        </div>
+
+        <section class="about-section">
+            <div class="about">
+                <div class="about-title">
+                    <h1>Tentang <label>kami.</label></h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam porro quidem consequatur qui
+                    </p>
+                </div>
+                <div class="about-image">
+                    <img src="/assets/img/school.png">
+                </div>
+            </div>
+        </section>
+
+        <section class="jurusan-section">
+            <h1><label>></label> JURUSAN</h1>
+            <div class="jurusan">
+                <div class="jurusan-card">
+                    <img src="/assets/img/rpl.png" alt="">
+                    <div class="jurusan-text">
+                        <h1>Rekayasa Perangkat Lunak</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis facere labore nisi ad,
+                        </p>
+                    </div>
+                </div>
+                <div class="jurusan-card">
+                    <div class="jurusan-text">
+                        <h1>Kimia Analisis</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci dicta reiciendis id maxime,
+                        </p>
+                    </div>
+                    <img src="/assets/img/kimia.png" alt="">
+                </div>
+                <div class="jurusan-card">
+                    <img src="/assets/img/Farmasi.png" alt="">
+                    <div class="jurusan-text">
+                        <h1>Farmasi</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum aspernatur ipsa nulla totam
+                            dolorem</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimony-section">
+            <div class="testimony" >
+                <swiper-container effect="cards" grab-cursor="true">
+                    <swiper-slide>
+                        <p>bersekolah di SMK Nusa Bangsa merupakan hal yang sangat berkesan bagi saya karena di sana kita diajari ilmu serta kemampuan
+                            yang mumpuni untuk bersaing di dunia industri maupun perkuliahan nantinya. Selain itu SMK akan sebangsa juga memiliki banyak ekstrakurikuler sehingga kita dapat mengasah minat dan bakat kita di sana.</p>
+                        <div class="testimony-profile">
+                            <img src="/assets/img/face.png">
+                            <div class="testimony-text">
+                                <h1>Surya Hadi Kusomo</h1>
+                                <p>Analis Mikrobiologi</p>
+                            </div>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <p>SMK Nusa Bangsa merupakan salah satu SMK yang dapat melahirkan alumni yang siap dan mampu bersaing di dunia kerja dunia perusahaan bahkan dunia wirausaha berkat ilmu dan bimbingan dari bapak ibu guru</p>
+                        <div class="testimony-profile">
+                            <img src="/assets/img/face.png">
+                            <div class="testimony-text">
+                                <h1>Asti Durrotul Mashunnah</h1>
+                                <p>QC Finishing</p>
+                            </div>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <p>Nusa Bangsa jurusan kimia daerah industri yang terus berkembang memberi banyak peluang bagi seorang lulusan Analis Kimia SMK akan disabang saya tidak hanya menjadi tempat dalam menuntut ilmu tetapi juga mendorong para siswanya untuk memiliki integritas
+                            akhlak yang baik dan keterampilan yang mumpuni sehingga dapat menjadi bekal untuk dapat bersaing di berbagai bidang</p>
+                        <div class="testimony-profile">
+                            <img src="/assets/img/face.png">
+                            <div class="testimony-text">
+                                <h1>Baharuddin Rahman Hakim</h1>
+                                <p>R&D</p>
+                            </div>
+                        </div>
+                    </swiper-slide>
+                  </swiper-container>
+            
+            <div class="testimony-title">
+                <h1>Testimony <label>alumni.</label></h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam porro quidem consequatur qui</p>
+            </div>
+            
+            </div>
+            </div>
+        </section>
 
 
     </main>
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
 </body>
+
 </html>
